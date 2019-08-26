@@ -16,11 +16,27 @@
 	</h1>
 
 	<div id="stripe">
+
+		<button class="trigger">How to play?</button>
 		<button id="reset">New Colors</button>
 		<span id="message"></span>
 		<button class="mode">Easy</button>
 		<button class="mode">Medium</button>
 		<button class="mode selected">Hard</button>
+	</div>
+	<!-- Modal for instructions page -->
+	<div class="modal">
+		<div class="modal-content">
+			<span class="close-button">&times;</span>
+			<h1>instructions</h1>
+			<hr>
+			<ol>
+				<li>Choose any one mode of play</li>
+				<li>Guess the color based on given RGB value</li>
+				<li>If your guess is right, all squares are turned to the given color</li>
+				<li>Square fades away, when you guess it wrong.</li>
+			</ol>
+		</div>
 	</div>
 
 	<div id="container">
