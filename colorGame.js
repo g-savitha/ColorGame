@@ -1,4 +1,4 @@
-var numSquares = 6;
+var numSquares = 9;
 var colors = [];
 var pickedColor;
 var squares = document.querySelectorAll(".square");
@@ -7,6 +7,11 @@ var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
+var modal = document.querySelector(".modal");
+var closeButton = document.querySelector(".close-button");
+var trigger = document.querySelector(".trigger");
+
+
 
 
 init();
@@ -120,3 +125,17 @@ function randomColor() {
 	var b = Math.floor(Math.random() * 256);
 	return "rgb(" + r + ", " + g + ", " + b + ")";
 }
+
+function toggleModal() {
+	modal.classList.toggle("show-modal");
+}
+
+function windowOnClick(event) {
+	if (event.target === modal) {
+		toggleModal();
+	}
+}
+
+trigger.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+window.addEventListener("click", windowOnClick);
