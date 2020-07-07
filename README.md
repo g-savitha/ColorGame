@@ -13,4 +13,3 @@
 	* Vanilla Javascript
 [Demo](https://gsavitha95.github.io/ColorGame/)
 
-This project has been created as a part of Web developer bootcamp by *Colt Steele.*
