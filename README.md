@@ -11,6 +11,6 @@
 	* HTML
 	* CSS
 	* Vanilla Javascript
-[Deployed App](https://savitha-gollamudi.github.io/ColorGame/)
+[Demo](https://gsavitha95.github.io/ColorGame/)
 
 This project has been created as a part of Web developer bootcamp by *Colt Steele.*
