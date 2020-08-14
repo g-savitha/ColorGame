@@ -11,5 +11,5 @@
 	* HTML
 	* CSS
 	* Vanilla Javascript
-[Demo](https://gsavitha95.github.io/ColorGame/)
+[Demo](https://g-savitha.github.io/ColorGame/)
 
